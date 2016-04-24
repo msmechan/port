@@ -1,0 +1,57 @@
+body {
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    color: #007dff;
+    text-decoration: none;
+    position:relative;
+}
+a:active {
+    top: 2px;
+}
+a:visited {
+    color: #850000;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 4px;
+}
+
+section {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+section article {
+    padding-left: 20px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}

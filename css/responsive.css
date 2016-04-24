@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*== Up to 980px ======================================================
+========================================================================*/
+/* Narrow desktop */
+@media (max-width: 940px) {
+  
+}
+
+/*== Up to 767px ======================================================
+========================================================================*/
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .feature-media{
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .feature-content article, .feature-media {
+        margin-top: 3%;
+        width: 98%;
+    }
+        .feature-media h3, .feature-media dt, .feature-media p, .feature-media dl, .feature-content article {
+        text-align: center;
+    }
+     a.call-to-action {   
+        width: 95%;
+        margin: 0 auto 20px;
+    }
+    nav ul {
+        display: none; 
+        
+    }
+   .mobile-nav li{
+        display: none;
+        
+/*
+        width: 100%;
+        float: right;
+        margin-right: 3%;
+*/
+    }
+    nav .icon-th-list{
+       display: block; 
+    }
+    .mobile-nav li{
+    }
+    .one-third{
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    }
+    .one-third.last {
+        margin: auto;   
+    }
+}
+
+/*== Up to 640px ==================================================
+====================================================================*/
+
+@media (max-width: 640px) {
+    .lead-info h1 {
+        font-size: 26px;   
+    }
+    .lead-info h1 span {
+        font-size: 18px;   
+    }
+}
+
+
+/*== Up to 480px ==================================================
+====================================================================*/
+/* Landscape phones and down */
+@media only screen and (max-width: 480px) {
+     .lead-image {
+        background: url(../images/480-spaceship-bg.jpg) no-repeat 0 0;
+    }
+          .lead-info h1 {
+        font-size: 20px;   
+    }
+    .lead-info h1 span {
+        font-size: 15px;   
+    }
+
+    footer ul a {
+/*
+        line-height: 2.5em;
+        text-decoration: none;
+        width: 40%;
+        background-color: red;
+        
+        margin-bottom: 20px;
+*/
+        display: block;
+        width: 100%;
+        margin: auto;
+        border-bottom: 1px solid;
+        text-align: left;
+        text-indent: 2%;
+        
+    }
+    footer ul li{
+        border: none;
+    }
+
+}
+
+/*== Up to 340px =====================================================
+========================================================================*/
+/* Portrait phones */
+@media only screen and (max-width: 340px) {
+/*
+    .logo, nav{
+        display: block;
+        float: none;
+        margin: auto auto 0.5em;
+        padding: 0 10%;
+        text-align: center;
+    }
+*/
+    .lead-image {
+        background: url(../images/290-spaceship-bg.jpg) no-repeat 0 0;
+        width: 100%;
+        height: 227px;
+    }
+   
+}
+
