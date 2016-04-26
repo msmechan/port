@@ -2,19 +2,14 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="robots" content="nofollow" />
-    <meta name="Description" content="<?php echo $content; " />
+    <meta name="Description" content="Anastasia Mechan Portfolio Website" />
     <title>Anastasia Mechan - Portfolio Website</title>
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen and (max-width:900px)" />
     <script src="scripts/jquery-1.7.1.min.js"></script>
-    <script src="scripts/jquery.easing.1.3.js"></script>
-    <script src="scripts/jquery.easing.compatibility.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -29,7 +24,7 @@
             <div class="page-contain">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="images/miami-dade-college.png" alt="Anastasia Mechan" title="Anastasia Mechan" />
+                        <img src="images/anastasia-mechan-logo.png" alt="Anastasia Mechan" title="Anastasia Mechan" />
                     </a>
                 </div>
                 <nav>
@@ -38,7 +33,8 @@
                         <li><a href="index.html" title="Home" class="active">Home</a></li>
                         <li><a href="resume.html" title="Resume´">Resume´</a></li>
                         <li><a href="videos.html" title="News">News</a></li>
-                        <li class="last"><a href="articles.html" title="Articles">Articles</a></li>
+                        <li><a href="articles.html" title="Articles">Articles</a></li>
+                        <li class="last"><a href="contact.html" title="Contact Me">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -46,9 +42,10 @@
         </div>
         <ul class="mobile-nav">
             <li><a href="index.html" title="Home" class="active">Home</a></li>
-            <li><a href="courses.html" title="Courses">Courses</a></li>
-            <li><a href="tuition-and-costs.html" title="Tuition and Costs">Tuition and costs</a></li>
-            <li class="last"><a href="career-prospects.html" title="Career Prospects">Career prospects</a></li>
+            <li><a href="resume.html" title="Resume´">Resume´</a></li>
+            <li><a href="videos.html" title="News">News</a></li>
+            <li><a href="articles.html" title="Articles">Articles</a></li>
+            <li class="last"><a href="contact.html" title="Contact Me">Contact</a></li>
         </ul>
     </header>
     <section class="feature-content home">
@@ -65,21 +62,21 @@
                 <li><a href="index.html" title="Home" class="active">Home</a></li>
                 <li><a href="resume.html" title="Resume´">Resume´</a></li>
                 <li><a href="videos.html" title="News">News</a></li>
-                <li class="last"><a href="articles.html" title="Articles">Articles</a></li>
+                <li><a href="articles.html" title="Articles">Articles</a></li>
+                <li class="last"><a href="contact.html" title="Contact Me">Contact</a></li>
             </ul>
         </div>
     </footer>
     <script type="text/javascript">
     $(document).ready(function() {
-        jQuery.easing.def = 'easeOutBounce';
+        
 
         $(".icon-th-list").click(function() {
-            //alert("clicked");
             $('.mobile-nav li').slideToggle({
                 duration: 300,
                 easing: 'linear'
             });
-            // $('.mobile-nav li').animate({height:200}, {duration: 1000, easing: 'easeInOutCirc'}).animate({height:100}, {duration: 1000, easing: 'easeOutBounce'});
+
         });
     });
     </script>
